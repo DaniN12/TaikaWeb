@@ -1,0 +1,57 @@
+/* For the tittle*/
+h1{
+   display: flex;
+	width: 100%;
+   justify-content: space-around;
+	align-items: center;
+ }
+/*It applies in each image*/
+.imagen{ 
+   display: flex;
+   align-items: center;
+   max-width: 90%;
+   max-height: 100%;
+  
+}
+/*For the whole section */
+ #biography{
+    display: flex;
+	 width: 100%;
+    justify-content: space-around;
+	align-items: center;
+ }
+ /*For the table an its elements*/
+ table tr, td{
+    padding: 1em;
+    min-width: 50%;
+ }
+ table, tr{
+	 display: flex;
+ }
+ tr{
+	margin-right: -1%;
+   max-height: 100vh;
+   min-width: 50%;
+ }
+ td {
+    margin-top: 0; 
+    max-width: 30em;
+    min-width: 50%;
+    padding: 2%;
+    background-color: rgba(26, 236, 236, 0.527);
+    text-align: center;
+    vertical-align: middle;
+}
+/*For all the text inside the p */
+p{
+   text-align: justify;
+   font-size: 1vw;
+}
+/* As all the text is inside p, we use this class to change the letter of the tittle*/
+.letter{
+   display: flex;
+   font-weight: bold;
+   height: 10%;
+ }
+
+ 

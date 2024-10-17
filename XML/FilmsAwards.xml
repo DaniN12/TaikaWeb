@@ -1,0 +1,386 @@
+<?xml-stylesheet type="text/xsl" href="FilmsAwards.xsl"?><!-- was: <?xml version="1.0" encoding="ISO-8859-1"?> --><Taika xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FilmsAwards.xsd">
+    <films>
+        <film id="F01">
+            <name>THOR RAGNAROK</name>
+            <year>2017-11-03</year>
+            <imagen enlace="..\imagenes\films\thor-ragnarok-one-sheet-i50061.jpg"/>
+            <links>https://www.youtube.com/watch?v=v7MGUNV8MxU</links>
+        </film>
+        <film id="F02">
+            <name>JOJO RABBIT</name>
+            <year>2019-10-18</year>
+            <imagen enlace="..\imagenes\films\71DIYFHebjL._AC_SY606_.jpg"/>
+            <links>https://www.youtube.com/watch?v=tL4McUzXfFI</links>
+            <awards>
+                <award id="A01">
+                    <nomination id="N02"/>
+                    <nomination id="N03"/>
+                </award>
+                <award id="A02">
+                    <nomination id="N04"/>
+                </award>
+                <award id="A03">
+                    <nomination id="N05"/>
+                </award>
+                <award id="A04">
+                    <nomination id="N06"/>
+                    <nomination id="N07"/>
+                    <nomination id="N08"/>
+                </award>
+                <award id="A06">
+                    <nomination id="N12"/>
+                </award>
+                <award id="A07">
+                    <nomination id="N14"/>
+                </award>
+                <award id="A08">
+                    <nomination id="N15"/>
+                </award>
+                <award id="A011">
+                    <nomination id="N20"/>
+                </award>
+                <award id="A012">
+                    <nomination id="N22"/>
+                    <nomination id="N23"/>
+                </award>
+                <award id="A013">
+                    <nomination id="N24"/>
+                </award>
+                <award id="A014">
+                    <nomination id="N27"/>
+                </award>
+            </awards>
+        </film>
+        <film id="F03">
+            <name>THOR LOVE AND THUNDER</name>
+            <year>2022-07-06</year>
+            <imagen enlace="..\imagenes\films\tye5gpoomngeplce22yry3u3wa-1650302966 (1).jpg"/>
+            <links>https://www.youtube.com/watch?v=tgB1wUcmbbw</links>
+        </film>
+        <film id="F04">
+            <name>MOANA</name>
+            <year>2016-11-23</year>
+            <imagen enlace="..\imagenes\films\6iHQpFiTg0QbKYac5Mprhx7tXo3.jpg"/>
+            <links>https://www.youtube.com/watch?v=LKFuXETZUsI</links>
+        </film>
+        <film id="F05">
+            <name>HUNT FOR THE WILDER PEOPLE</name>
+            <year>2016-03-31</year>
+            <imagen enlace="..\imagenes\films\Hunt_for_the_Wilderpeople-794989647-large.jpg"/>
+            <links>https://www.youtube.com/watch?v=dPaU4Gymt3E</links>
+        </film>
+        <film id="F06">
+            <name>WHAT WE DO IN THE SHADOWS</name>
+            <year>2015-02-13</year>
+            <imagen enlace="..\imagenes\films\Loquehacemosenlassombras.jpg"/>
+            <links>https://www.youtube.com/watch?v=IAZEWtyhpes</links>
+        </film>
+        <film id="F07">
+            <name>BOY</name>
+            <year>2010-03-25</year>
+            <imagen enlace="..\imagenes\films\Boy-496420219-large.jpg"/>
+            <links>https://www.youtube.com/watch?v=ESD3mlgpSwM</links>
+        </film>
+        <film id="F08">
+            <name>EAGLE VS SHARK</name>
+            <year>2007-09-30</year>
+            <imagen enlace="..\imagenes\films\Eagle_vs_Shark-324339915-large.jpg"/>
+            <links>https://www.youtube.com/watch?v=_OrmOuC-aUY</links>
+        </film>
+        <film id="F09">
+            <name>TWO CARS, ONE NIGHT</name>
+            <year>2003-07-12</year>
+            <imagen enlace="..\imagenes\films\descarga.jpg"/>
+            <links>https://www.youtube.com/watch?v=aFmbIO_JTH0</links>
+            <awards>
+                <award id="A01">
+                    <nomination id="N01"/>
+                </award>
+            </awards>
+        </film>
+    </films>
+    <awards>
+        <award id="A01">
+            <nameAward>Academy Awards</nameAward>
+            <nomination id="N01">
+                <year>2005</year>
+                <work>Two Cars, One Night</work>
+                <category>Best live action film</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+            <nomination id="NO2">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Best Picture</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+            <nomination id="NO3">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Best Adapted Screenplay</category>
+                <result>
+                    <Won/>
+                </result> 
+            </nomination>
+        </award>
+        <award id="A02">
+            <nameAward>AACTA International Awards</nameAward>
+            <nomination id="N04">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Best Screenplay</category>
+                <result>
+                    <Won/>
+                </result>         
+            </nomination>
+        </award>
+        <award id="A03">
+            <nameAward>British Academy Film Awards</nameAward>
+            <nomination id="N05">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Best Adapted Screenplay</category>
+                <result>
+                    <Won/>
+                </result>         
+            </nomination>
+        </award>
+        <award id="A04">
+            <nameAward>Critics Choice Movie Awards</nameAward>
+            <nomination id="N06">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Best Picture</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>        
+            <nomination id="N07">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Best Comedy</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+            <nomination id="N08">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Best Adapted Screenplay</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+        </award>
+        <award id="A05">
+            <nameAward>Critics Choice Television Awards</nameAward>
+            <nomination id="N09">
+                <year>2021</year>
+                <work>What We Do in the Shadows</work>
+                <category>Best Comedy Series</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+            <nomination id="N010">
+                <year>2022</year>
+                <work>Reservation Dogs</work>
+                <category>Best Comedy Series</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+            <nomination id="N011">
+                <year>2022</year>
+                <work>What We Do in the Shadows</work>
+                <category>Best Comedy Series</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+        </award>
+        <award id="A06">
+            <nameAward>Directors Guild of America Awards</nameAward>
+            <nomination id="N012">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Outstanding Directing Feature Film</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+            <nomination id="N013">
+                <year>2021</year>
+                <work>Coca-Cola's "The Letter"</work>
+                <category> Outstanding Directing  Commercials </category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+        </award>
+        <award id="A07">
+            <nameAward>Golden Globe Awards</nameAward>
+            <nomination id="N014">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category> Best Motion Picture – Musical or Comedy </category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+        </award>
+        <award id="A08">
+            <nameAward>Grammy Awards</nameAward>
+            <nomination id="N015">
+                <year>2021</year>
+                <work>Jojo Rabbit</work>
+                <category> Best Compilation Soundtrack for Visual Media </category>
+                <result>
+                    <Won/>
+                </result>         
+            </nomination>
+        </award>
+        <award id="A09">
+            <nameAward>Independent Spirit Awards</nameAward>
+            <nomination id="N016">
+                <year>2022</year>
+                <work>Reservation Dogs</work>
+                <category>Best New Scripted Series</category>
+                <result>
+                    <Won/>
+                </result>         
+            </nomination>
+        </award>
+        <award id="A010">
+            <nameAward>Primetime Emmy Awards</nameAward>
+            <nomination id="N017">
+                <year>2020</year>
+                <work>What We Do In The Shadows</work>
+                <category>Outstanding Comedy Series</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+            <nomination id="N018">
+                <year>2019</year>
+                <work>The Mandalorian</work>
+                <category>Outstanding Voice-Over Performance</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+            <nomination id="N019">
+                <year>2022</year>
+                <work>What We Do In The Shadows</work>
+                <category>Outstanding Comedy Series</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+        </award>
+        <award id="A011">
+            <nameAward>Producers Guild of America Awards</nameAward>
+            <nomination id="N020">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Outstanding Producer of Theatrical Motion Pictures</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+            <nomination id="N021">
+                <year>2021</year>
+                <work>What We Do In The Shadows</work>
+                <category>Outstanding Producer of Episodic Comedy Television</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+        </award>
+        <award id="A012">
+            <nameAward>Satellite Awards</nameAward>
+            <nomination id="N022">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Best Actor – Motion Picture Musical or Comedy</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+            <nomination id="N023">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Best Adapted Screenplay</category>
+                <result>
+                    <Nominated/>
+                </result>
+            </nomination>
+        </award>
+        <award id="A013">
+            <nameAward>Screen Actors Guild Awards</nameAward>
+            <nomination id="N024">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Outstanding Performance by a Cast in a Motion Picture</category>
+                <result>
+                    <Nominated/>
+                </result>        
+            </nomination>
+        </award>
+        <award id="A014">
+            <nameAward>Writers Guild of America Awards</nameAward>
+            <nomination id="N025">
+                <year>2008</year>
+                <work>Flight of the Conchords</work>
+                <category>Best Comedy Series</category>
+                <result>
+                    <Nominated/>
+                </result>        
+            </nomination>
+            <nomination id="N026">
+                <year>2008</year>
+                <work>Flight of the Conchords</work>
+                <category>Best New Series</category>
+                <result>
+                    <Nominated/>
+                </result>        
+            </nomination>
+            <nomination id="N027">
+                <year>2020</year>
+                <work>Jojo Rabbit</work>
+                <category>Best Adapted Screenplay</category>
+                <result>
+                    <Won/>
+                </result>         
+            </nomination>
+            <nomination id="N028">
+                <year>2020</year>
+                <work>What We Do in the Shadows</work>
+                <category>Best New Series</category>
+                <result>
+                    <Nominated/>
+                </result>        
+            </nomination>
+            <nomination id="N029">
+                <year>2022</year>
+                <work>Reservation Dogs</work>
+                <category>Best New Series</category>
+                <result>
+                    <Nominated/>
+                </result>        
+            </nomination>
+            <nomination id="N030">
+                <year>2022</year>
+                <work>Reservation Dogs (Episode:"F*ckin' Rez Dogs")</work>
+                <category>Best Comedy Episode</category>
+                <result>
+                    <Nominated/>
+                </result>        
+            </nomination>
+        </award>
+    </awards>
+</Taika>

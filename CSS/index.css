@@ -1,0 +1,11 @@
+/* Use for text*/
+h1{
+	text-align: center;
+	font-family: 'ArchicocoRegular';
+	color: #ffde59;
+}
+/* Use when the cursor crosses the text*/
+h1:hover{
+	filter: drop-shadow(5px 5px 12px);
+	transition: 0.5s ease;
+}

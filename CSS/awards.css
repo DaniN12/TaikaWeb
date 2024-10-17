@@ -1,0 +1,40 @@
+/*define the size, font, color and position of the text.*/
+h2{
+	font-family: 'HappyTimesattheIKOBRegular';
+  text-align: center;
+  color:white;
+  font-size: 30px;
+	filter:drop-shadow(3px 3px 3px #da6a72);
+}
+/*Define the format of the table.*/
+table, td, th{
+	table-layout: fixed;
+	padding: 20px;
+	border-collapse: collapse;
+	border:2px solid black;
+	color:white;
+	margin: 20px;
+	text-align: center;
+}
+/*Define the font, size and the background of the head og the table to easily differentiate it from the body of the table*/
+thead{
+		background-color: rgba(63, 82, 158, 0.527);
+		font-family: 'ArchicocoRegular';
+		font-size:22px;
+		font-size-adjust: auto;
+}
+/*Define the font, size and the background of the head og the table to easily differentiate it from the head of the table*/
+tbody{
+	background-color: rgba(145, 74, 111, 0.527);
+	font-family:'HappyTimesattheIKOBRegular';
+	font-size:18px;
+	font-size-adjust: auto;
+}
+/*An attribute that colors a table cell in case  that Taika hadn't won the award*/
+.nominated{
+		background-color:RGB(218, 106, 114, 0.857);
+}
+/*An attribute that colors a table cell in case  that Taika had won the award*/
+.won{
+	background-color:RGB(120, 229, 158, 0.857);
+}

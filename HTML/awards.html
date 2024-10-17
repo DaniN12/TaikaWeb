@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+	<!-- here we link the stylesheet for the font-size and for the css of the page-->
+	<!-- We dicided to put some tags that give more information about our website to search engines-->
+	<head>
+    <!-- Here we put the author of the web page-->
+    <meta name=â€�authorâ€� content="Meylin GutiÃ©rrez">
+    <!-- Some words to make the  search engines find easer our website-->
+    <meta name="keywords" content="Taika Waititi, Awards, nominations ">
+    <!--Give to the search engines a little description of this website-->
+    <meta name="description" content="Taika Waititi Lifetime Awards and Nominations">
+    <!--Title of the  webpage-->
+		<title>TAIKA WAITITI:AWARDS AND  NOMINATIONS</title>
+    <!--Here we find all the links that we need like the link to our CS, and the links to the different text fonts that we used.-->
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/archicoco" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/crystal" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/clayborn" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/happy-times" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/some-time-later" type="text/css"/>
+		<link rel="stylesheet" href="../CSS/awards.css">
+		<link rel="stylesheet" href="../CSS/style.css">
+	</head>
+	<body>
+    <!--This is the header where we have the main title of the webpage-->
+		<!-- Use of flexbox for all the body-->
+    <!--First we have a classes that are used to say in the CSS that everything that is here shloud be in one way-->
+		<header class="container">
+				<!-- tittle of the webpage-->
+			<div id="title">
+				<div id="gomenu"></div>
+				<div id="taika">TAIKA</div>
+				<div id="waititi">WAITITI</div>
+				<br/>	<br/>
+				<!-- tittle of the page-->
+				<div id= "subtitle">
+					AWARDS
+				</div>
+			</div>
+		</header>
+		<!--Here is the nav where we put our linked menu to the other pages of Taika-->
+		<nav>
+			<!--Takes us to the home page-->
+			<div class="item">
+				<a href="../index.html" class="item menu">HOME</a>
+			</div>
+			<!-- This is the dropdown menu that takes us to the Biography page-->
+			<div class="item">
+				<button class="dropbtn">BIOGRAPHY</button>
+				<div class="dropdown-content" id="bio">
+					<a href="bio.html#introduction">Introduction</a>
+					<a href="bio.html#earlyYears">Early years</a>
+					<a href="bio.html#worldwide">Worldwide Recognizement</a>
+					<a href="bio.html#latestCareer">Latest Career</a>
+				</div>
+			</div>
+			<!--Takes us to the films page-->
+			<div class="item">
+				<a href="films.html" class="item menu">FILMS</a>
+			</div>
+			<!--Takes us to the series page-->
+			<div class="item">
+				<a href="series.html" class="item menu">SERIES</a>
+			</div>
+			<!--Takes us to the actor page-->
+			<div class="item">
+				<a href="actor.html" class="item menu">ACTOR</a>
+			</div>
+		</nav>
+		<main class="container">
+			<br><br>
+			<!--An iframe of the moment when Taika won an Oscar-->
+			<div id="iframeContainer">
+				<iframe width="1000" height="500" src="https://www.youtube.com/embed/dFGkExLDrEc" title="YouTube video player"
+				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</div>
+			<br><br>
+			<!--An introductory message for the viewer-->
+			<h2>These are the awards that Taika Waititi has been nominated for along with the ones he has won.</h2>
+			<br><br>
+			<!--Here is where our  table of  the nominations and awards start-->
+			<table>
+				<!--Head of the table-->
+        <thead>
+					<!--Use th which centers and makes cells bold -->
+          <th>AWARD</th>
+          <th>YEAR</th>
+          <th>WORK</th>
+          <th>CATEGORY</th>
+          <th>RESULT</th>
+        </thead>
+				<!--Body of the table-->
+        <tbody>
+					<!--tr to start a new column-->
+          <tr>
+						<!--td for every elment of a cell-->
+						<!--attribute rowspan to merge cells-->
+            <td rowspan="3">Academy Awards</td>
+            <td>2005</td>
+            <td>Two Cars, One Night</td>
+            <td>Best live action film</td>
+						<!--The last cell has an attribute used to tell the css what color to color this cell depending on whether it won or not.-->
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td rowspan="2">2020</td>
+            <td rowspan="2">Jojo Rabbit</td>
+            <td>Best Picture</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>Best Adapted Screenplay</td>
+            <td class="won">Won</td>
+          </tr>
+          <tr>
+            <td>AACTA International Awards</td>
+            <td>2020</td>
+            <td>Jojo Rabbit</td>
+            <td>Best Screenplay</td>
+            <td class="won">Won</td>
+          </tr>
+          <tr>
+            <td>British Academy Film Awards</td>
+            <td>2020</td>
+            <td>Jojo Rabbit</td>
+            <td>Best Adapted Screenplay</td>
+            <td class="won">Won</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Critics' Choice Movie Awards</td>
+            <td rowspan="3">2020</td>
+            <td rowspan="3">Jojo Rabbit</td>
+            <td>Best Picture</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>Best Comedy</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>Adapted Screenplay</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Critics' Choice Television Awards</td>
+            <td>2021</td>
+            <td>What We Do in the Shadows</td>
+            <td>Best Comedy Series</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td rowspan="2">2022</td>
+            <td>Reservation Dogs</td>
+            <td rowspan="2">Best Comedy Series</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>What We Do in the Shadows</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Directors Guild of America Awards</td>
+            <td>2020</td>
+            <td>Jojo Rabbit</td>
+            <td>Outstanding Directing â€“ Feature Film</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>Coca-Cola's "The Letter"</td>
+            <td>Outstanding Directing â€“ Commercials</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>Golden Globe Awards</td>
+            <td>2020</td>
+            <td>Jojo Rabbit</td>
+            <td>Best Motion Picture â€“ Musical or Comedy</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>Grammy Awards</td>
+            <td>2021</td>
+            <td>Jojo Rabbit</td>
+            <td>Best Compilation Soundtrack for Visual Media</td>
+            <td class="won">Won</td>
+          </tr>
+          <tr>
+            <td>Independent Spirit Awards</td>
+            <td>2022</td>
+            <td>Reservation Dogs</td>
+            <td>Best New Scripted Series</td>
+            <td class="won">Won</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Primetime Emmy Awards</td>
+            <td rowspan="2">2020</td>
+            <td>What We Do In The Shadows</td>
+            <td>Outstanding Comedy Series</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>The Mandalorian</td>
+            <td>Outstanding Character Voice-Over Performance</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>What We Do In The Shadows</td>
+            <td>Outstanding Comedy Series</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Producers Guild of America Awards</td>
+            <td>2020</td>
+            <td>Jojo Rabbit</td>
+            <td>Outstanding Producer of Theatrical Motion Pictures</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>What We Do In The Shadows</td>
+            <td>Outstanding Producer of Episodic Comedy Television</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Satellite Awards</td>
+            <td rowspan="2">2020</td>
+            <td rowspan="2">Jojo Rabbit</td>
+            <td>	Best Actor â€“ Motion Picture Musical or Comedy</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>Best Adapted Screenplay</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>Screen Actors Guild Awards</td>
+            <td>2020</td>
+            <td>Jojo Rabbit</td>
+            <td>Outstanding Performance by a Cast in a Motion Picture</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td rowspan="6">Writers Guild of America Awards</td>
+            <td rowspan="2">2008</td>
+            <td rowspan="2">Flight of the Conchords</td>
+            <td>Best Comedy Series</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>Best New Series</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td rowspan="2">2020</td>
+            <td>Jojo Rabbit</td>
+            <td>Best Adapted Screenplay</td>
+            <td class="won">Won</td>
+          </tr>
+          <tr>
+            <td>What We Do in the Shadows</td>
+            <td>Best New Series</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td rowspan="2">2022</td>
+            <td>Reservation Dogs</td>
+            <td>Best New Series</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+          <tr>
+            <td>Reservation Dogs (Episode:"F*ckin' Rez Dogs")</td>
+            <td>Best Comedy Episode</td>
+            <td class="nominated">Nominated</td>
+          </tr>
+        </tbody>
+      </table>
+			<br><br><br>
+			<!-- Internal link to go to the top of the page-->
+			<a href="#gomenu" class="gomenu"> GO TO THE BEGGINING</a>
+		</main>
+		<br><br><br>
+		<!--Footer with the social medias-->
+		<footer id="socials">
+			<a href="https://www.instagram.com/taikawaititi/?hl=en" target="_blank" id="instagram">Instagram: @taikawaititi</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="https://twitter.com/taikawaititi" target="_blank" id="twitter">Twitter: @taikawaititi</a>
+			<br><br><br>
+			<a href="InterfaceForms.html" class="link_footer" id="footer_hov">HELP US TO STAY UPDATED WITH THE NOMINATIONS OF TAIKA WAITITI</a>
+			<br><br><br>
+			Page Re-designed by:<br>
+			Jagoba, Meylin & Daniel.
+			<br>
+		</footer>
+	</body>
+</html>

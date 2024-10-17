@@ -1,0 +1,96 @@
+
+/* Estilos para el formulario */
+form {
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los elementos de entrada */
+label {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    color: #FFFFFF;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+select {
+    height: 36px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Estilos para los botones */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #33b0f2;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    transition: 0.25s ease;
+    background-color: #ffde59;
+    color: black;
+    filter: drop-shadow(3px 3px 3px);
+}
+
+input[type="submit"]:focus,
+input[type="reset"]:focus {
+    outline: none;
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active {
+    transform: translateY(1px);
+}
+
+/* Estilos adicionales para resaltar el botón de reset */
+input[type="reset"] {
+    background-color: #ffde59;
+    margin-right: 10px;
+}
+
+input[type="reset"]:hover {
+    background-color: #e53935;
+}
+
+/* Estilos adicionales para los checkboxes de WIN y NOMINATED */
+#punto1,
+#punto2 {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+label[for="punto1"],
+label[for="punto2"] {
+    display: inline-block;
+    margin-right: 5px;
+}
+

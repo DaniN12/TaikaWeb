@@ -1,0 +1,43 @@
+.container_ {
+    text-align: center;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    width: 550px;
+    height: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    white-space: nowrap;
+}
+
+.btn:hover {
+    background-color: #33b0f2;
+    color: #FFFFFF;
+    filter: drop-shadow(3px 3px 3px);
+    transition: 0.25s ease;
+}
+
+.boton .btn:first-child {
+    margin-right: 10px;
+}
+
+.boton .btn:first-child {
+    margin-left: 10px;
+}
+
+
+

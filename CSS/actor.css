@@ -1,0 +1,17 @@
+/*We define the size, font, color and position of the text.*/
+h3{
+  font-family: 'HappyTimesattheIKOBRegular';
+  text-align: center;
+  color:white;
+  font-size: 30px;
+}
+/*We define the position of the image map*/
+#mapimage{
+    display: flex;
+    justify-content: center;
+}
+/*when the cursor is over the image map it will light up*/
+#mapimage:hover{
+  filter: drop-shadow(5px 5px 12px);
+  color:white;
+}

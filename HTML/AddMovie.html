@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Here we put the author of the web page-->
+        <meta name="author" content="Jagoba Bartolome, Meylin Gutierrez, Daniel Negrete">
+        <title>ADD MOVIE</title>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/archicoco" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/crystal" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/clayborn" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/some-time-later" type="text/css"/>  
+        <link rel="stylesheet" href="../CSS/AddMovie.css">
+        <link rel="stylesheet" href="../CSS/style.css">
+		<script type="text/javascript">function enviarDatos() {
+
+            var answer = window.confirm("Estas seguro?");
+            if (answer) {
+                alert("Modificado correctamente");
+                document.form.action = "../php/AddMovie.php";
+                document.form.method = "GET";
+                document.form.submit();
+            }
+            else {
+                alert("Cancelado");
+            }
+        }</script>
+    </head>
+    <body>
+        <header class="container">
+            <div id="title">
+                <div id="taika">TAIKA</div>
+                <div id="waititi">WAITITI</div>
+                <br/>	<br/>
+                <!-- tittle of the page-->
+                <div id= "subtitle">
+                    ADD MOVIE
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="item">
+                <a href="../index.html" class="item menu">HOME</a>
+            </div>
+            <div class="item">
+                <button class="dropbtn">BIOGRAPHY</button>
+                <div class="dropdown-content" id="bio">
+                    <a href="bio.html#introduction">Introduction</a>
+                    <a href="bio.html#earlyYears">Early years</a>
+                    <a href="bio.html#worldwide">Worldwide Recognizement</a>
+                    <a href="bio.html#latestCareer">Latest Career</a>
+                </div>
+            </div>
+            <div class="item">
+                <a href="films.html" class="item menu">FILMS</a>
+            </div>
+            <div class="item">
+                <a href="series.html" class="item menu">SERIES</a>
+            </div>
+            <div class="item">
+                <a href="awards.html" class="item menu">AWARDS</a>
+            </div>
+            <div class="item">
+                <a href="actor.html" class="item menu">ACTOR</a>
+            </div>
+        </nav>
+        <br/><br/>
+            <form name="form" action="../php/AddMovie.php"> 
+                    <label for="name">Movie Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="year">Release Date:</label>
+                    <input type="date" id="year" name="year">
+                    <label for="imagen">Movie Poster (407x606px):</label>
+                    <input type="file" id="imagen" name="imagen" accept="image/*">
+                    <label for="links">Trailer Link:</label>
+                    <input type="url" id="links" name="links">
+                    <input type="submit" value="Enviar" onclick="enviarDatos();">
+            </form>
+        <br/><br/><br/>
+        <footer id="socials">
+            <a href="https://www.instagram.com/taikawaititi/?hl=en" target="_blank" id="instagram">Instagram: @taikawaititi</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/taikawaititi" target="_blank" id="twitter">Twitter: @taikawaititi</a>
+            <br/><br/><br/>
+            Page Re-designed by:
+            <br>
+            Jagoba, Meylin & Daniel.
+            <br/>
+        </footer>
+        <script src="../JAVASCRIPT/AddMovie.js"></script>
+    </body>
+</html>

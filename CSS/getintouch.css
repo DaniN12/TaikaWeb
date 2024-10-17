@@ -1,0 +1,28 @@
+/* To create the form */
+form{
+	display: flex;
+	align-self: center;
+	color: white;
+}
+/*Format  in which we organize the groups*/
+fieldset{
+	width: 500px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+/*Space where the user can write*/
+textarea{
+	width: 100%;
+	height: 30%;
+	background-color: transparent;
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+/* Input used for the email */
+input[type=email]{
+	border: none;
+	border-bottom: 2px solid white;
+	background-color: transparent;
+	color: white;
+}

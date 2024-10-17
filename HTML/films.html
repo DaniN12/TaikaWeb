@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Here we put the author of the web page-->
+        <meta name="author" content="Jagoba Bartolom�, Meylin Guti�rrez, Daniel Negrete">
+        <title>TAIKA WAITITI: FILMS</title>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/archicoco" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/crystal" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/clayborn" type="text/css"/> 
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/happy-times" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/some-time-later" type="text/css"/>      
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/posterRoster.css">
+
+    </head>
+    <body>
+        <!-- Use of flexbox for all the body-->
+        <header class="container">
+            <!-- title of the webpage-->
+            <div id="title">
+                <div id="taika">TAIKA</div><div id="waititi">WAITITI</div>
+            </div>
+            <div id="subtitle">
+                FILMS
+            </div>
+        </header>
+        <nav>
+            <!-- Menu of the webpage with its dropdown-->
+            <div class="item">
+                <a href="../index.html" class="item menu">HOME</a>
+            </div>
+            <div class="item">
+                <button class="dropbtn">BIOGRAPHY</button>
+                <div class="dropdown-content" id="bio">
+                    <a href="bio.html#introduction">Introduction</a>
+                    <a href="bio.html#earlyYears">Early years</a>
+                    <a href="bio.html#worldwide">Worldwide Recognizement</a>
+                    <a href="bio.html#latestCareer">Latest Career</a>
+                </div>
+            </div>
+            <div class="item">
+                <a href="series.html" class="item menu">SERIES</a>
+            </div>
+            <div class="item">
+                <a href="awards.html" class="item menu">AWARDS</a>
+            </div>
+            <div class="item">
+                <a href="actor.html" class="item menu">ACTOR</a>
+            </div>
+        </nav>
+        <!-- Films separated in rows, each film has its own container including its own title text when hovering the mouse over the poster-->
+        <main>
+            <div class='row'>
+                <div class='container'>
+                    <div class="text">THOR RAGNAROK<br/>2017-11-03</div>
+                    <a href="https://www.youtube.com/watch?v=v7MGUNV8MxU">
+                        <img src="../imagenes/films/thor-ragnarok-one-sheet-i50061.jpg" class="image"/>
+                    </a>
+                </div>
+                <div class='container'>
+                    <div class="text">JOJO RABBIT<br/>2019-10-18</div>
+                    <a href="https://www.youtube.com/watch?v=tL4McUzXfFI">			
+                        <img src="../imagenes/films/71DIYFHebjL._AC_SY606_.jpg" class="image"/>
+                    </a>
+                </div>
+                <div class='container'>
+                    <div class="text">THOR LOVE AND THUNDER<br/>2022-07-06</div>
+                    <a href="https://www.youtube.com/watch?v=tgB1wUcmbbw">
+                        <img src="../imagenes/films/tye5gpoomngeplce22yry3u3wa-1650302966 (1).jpg" class="image"/>
+                    </a>
+                </div>
+            </div>
+            <br/><br/><br/>
+            <div class='row'>
+                <div class='container'>
+                    <div class="text">MOANA<br/>2016-11-23</div>
+                    <a href="https://www.youtube.com/watch?v=LKFuXETZUsI">
+                        <img src="../imagenes/films/6iHQpFiTg0QbKYac5Mprhx7tXo3.jpg" class="image"/>
+                    </a>
+                </div>
+                <div class='container'>
+                    <div class="text">HUNT FOR THE WILDER PEOPLE<br/>2016-03-31</div>
+                    <a href="https://www.youtube.com/watch?v=dPaU4Gymt3E">
+                        <img src="../imagenes/films/Hunt_for_the_Wilderpeople-794989647-large.jpg" class="image"/>
+                    </a>
+                </div>
+                <div class='container'>
+                    <div class="text">LO QUE HACEMOS EN LAS SOMBRAS<br/>2015-02-13</div>
+                    <a href="https://www.youtube.com/watch?v=IAZEWtyhpes">
+                        <img src="../imagenes/films/Loquehacemosenlassombras.jpg" class="image"/>
+                    </a>
+                </div>
+            </div>
+            <div class='row'>
+                <br/><br/><br/>
+                <div class='container'>
+                    <div class="text">BOY<br/>2010-03-25</div>
+                    <a href="https://www.youtube.com/watch?v=ESD3mlgpSwM">
+                        <img src="../imagenes/films/Boy-496420219-large.jpg" class="image"/>	
+                    </a>
+                </div>
+                <div class='container'>
+                    <div class="text">EAGLE VS SHARK<br/>2007-09-30</div>
+                    <a href="https://www.youtube.com/watch?v=_OrmOuC-aUY">
+                        <img src="../imagenes/films/Eagle_vs_Shark-324339915-large.jpg" class="image"/>
+                    </a>
+                </div>
+                <div class='container'>
+                    <div class="text">TWO CARS, ONE NIGHT<br/>2003-07-12</div>
+                    <a href="https://www.youtube.com/watch?v=aFmbIO_JTH0">
+                        <img src="../imagenes/films/descarga.jpg" class="image"/>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <br/><br/><br/>
+        <div class="buttons-container">
+            <div class="button-container">
+                <button class="button" id="hideButton">Hide Movies</button>
+                <button class="button" id="showButton">Show Movies</button>
+            </div>
+        </div>
+        <div id="moviesContainer">
+           
+        </div>        <br/><br/><br/>
+        <footer>
+            <a href="https://www.instagram.com/taikawaititi/?hl=en" class="link_footer" id="instagram">Instagram: @taikawaititi</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/taikawaititi" class="link_footer" id="twitter">Twitter: @taikawaititi</a>
+            <br><br><br>
+            <a href="InterfaceForms.html" class="link_footer" id="footer_hov">HELP US TO STAY UPDATED WITH THE NOMINATIONS OF TAIKA WAITITI</a>
+            <br><br><br>
+            Page Re-designed by:<br>
+            Jagoba, Meylin & Daniel.
+            <br>
+        </footer>
+
+        <!--seems like autoplay does not wo on Chrome or Edge, but it did work on Mozilla if given the audio permission-->
+        <audio controls autoplay hidden>
+            <source id="music" src="../audio/BackgroundMusic.mp3" type="audio/mpeg"/>
+        </audio>
+        <script src="../JAVASCRIPT/films.js"></script>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Here we put the author of the web page-->
+        <meta name="author" content="Jagoba Bartolome, Meylin Gutierrez, Daniel Negrete">
+        <title>DELETE NOMINATION</title>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/archicoco" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/crystal" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/clayborn" type="text/css"/>
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/some-time-later" type="text/css"/>  
+        <link rel="stylesheet" type="text/css" href="../CSS/AddNomination.css">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <script type="text/javascript">function enviarDatos() {
+
+            var answer = window.confirm("Estas seguro?");
+            if (answer) {
+                alert("Modificado correctamente");
+                document.form.action = "../php/DeleteNomination.php";
+                document.form.method = "GET";
+                document.form.submit();
+            }
+            else {
+                alert("Cancelado");
+            }
+        }</script>
+    </head>
+    <header class="container">
+        <div id="title">
+            <div id="taika">TAIKA</div>
+            <div id="waititi">WAITITI</div>
+            <br/>	<br/>
+            <!-- tittle of the page-->
+            <div id= "subtitle">
+                DELETE NOMINATION
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="item">
+            <a href="../index.html" class="item menu">HOME</a>
+        </div>
+        <div class="item">
+            <button class="dropbtn">BIOGRAPHY</button>
+            <div class="dropdown-content" id="bio">
+                <a href="bio.html#introduction">Introduction</a>
+                <a href="bio.html#earlyYears">Early years</a>
+                <a href="bio.html#worldwide">Worldwide Recognizement</a>
+                <a href="bio.html#latestCareer">Latest Career</a>
+            </div>
+        </div>
+        <div class="item">
+            <a href="films.html" class="item menu">FILMS</a>
+        </div>
+        <div class="item">
+            <a href="series.html" class="item menu">SERIES</a>
+        </div>
+        <div class="item">
+            <a href="awards.html" class="item menu">AWARDS</a>
+        </div>
+        <div class="item">
+            <a href="actor.html" class="item menu">ACTOR</a>
+        </div>
+    </nav>
+    <br/><br/>
+    <form action="procesar_formulario.php" method="POST" onsubmit="return confirmarEnvio()">
+	
+    <label for="id">Award ID:</label>
+
+    <input type="text" id="id" name="id">
+	
+	<label for="idn">Nomination ID</label>
+    
+	<input type="text" id="idn" name="idn">
+
+    <input type="submit" value="Enviar" onclick="enviarDatos();">
+    </form>
+    <footer id="socials">
+        <a href="https://www.instagram.com/taikawaititi/?hl=en" target="_blank" id="instagram">Instagram: @taikawaititi</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/taikawaititi" target="_blank" id="twitter">Twitter: @taikawaititi</a>
+        <br/><br/><br/>
+        Page Re-designed by:
+        <br>
+        Jagoba, Meylin & Daniel.
+        <br/>
+    </footer>
+</body>
+</html>

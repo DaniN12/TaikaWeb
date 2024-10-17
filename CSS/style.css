@@ -1,0 +1,189 @@
+/*details for the body, it's look and functions.*/
+body{
+	display: flex;
+	flex-direction: column;
+	background-image: url("../imagenes/fondo_epico.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family: "CRYSTALRegular";
+}
+/*We used this class for those html elements that shared some characteristics.*/
+.container{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: relative;
+}
+.gomenu{
+	text-align: center;
+}
+.gomenu:hover{
+	transition: 0.25s ease;
+	font-size: 30px;
+	color: #ffde59;
+	filter: drop-shadow(3px 3px 3px);
+}
+/*this part gives the font, size and efects to the title words "Taika Waitit" and the particular subtitle of each page.*/
+#title{
+	text-align: center;
+	margin-top:-2%;
+}
+#taika, #waititi {
+	font-size: 7vw;
+	filter: drop-shadow(5px 5px 12px);
+	transition: 0.25s ease;
+}
+#taika{
+	font-family: 'ArchicocoRegular';
+	color: #ffde59;
+}
+#waititi{
+	font-family: 'ClaybornRegular';
+	color: #72bede;
+}
+#subtitle {
+   margin-top: 0%;
+	 font-family: 'SomeTimeLaterRegular';
+   font-weight: bold;
+   font-style: normal;
+   color: #da6a72;
+   font-size: 4vw;
+   text-align: center;
+}
+/*This gives the effects for the navigation bar, inlcuding the dropdown and the different type of buttons.*/
+nav{
+	display: flex;
+	flex-direction: row;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 1%;
+	list-style: none;
+	margin-top: 2%;
+	background: #ffe28a;
+	border: 2px solid #ccb46e;
+	border-radius: 10px;
+}
+.item {
+  display: inline-block;
+  width: 50%;
+  font-size: 2vw;
+  color: black;
+  opacity: 70%;
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-evenly;
+  position: relative;
+	z-index: 2;
+}
+.item:hover{
+	opacity: 100%;
+	width: 60%;
+	transition: 0.25s ease;
+	filter: drop-shadow(5px 5px 10px white);
+}
+button{
+	border: none;
+	background: none;
+	font-family: 'CRYSTALRegular';
+	font-size: 2vw;
+}
+.dropbtn {
+  border: none;
+  color: black;
+  opacity;
+}
+.item:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: 25%;
+  min-width: 50%;
+  font-family: 'CRYSTALRegular';
+  z-index: 1;
+}
+.dropdown-content:hover{
+	width: 82.75%;
+	transition: 0.25s ease;
+}
+.dropdown-content a {
+  color: black;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: 1.75vw;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+	font-size: 2.25vw;
+	transition: 0.25s ease;
+}
+.menu:hover{
+	filter: drop-shadow(5px 5px 3px white);
+}
+#bio{
+	background-image: url("../imagenes/menu_bio.jpg");
+	background-size: cover;
+}
+/*Code for the iframe.*/
+#iframeContainer{
+		display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#iframeContainer:hover{
+		filter: drop-shadow(5px 5px 5px #ffde59);
+}
+/*This last part contains the style and effects for the entire footer section, including the annimations of the links.*/
+footer{
+	color: white;
+	background-color: black;
+	margin-bottom: -1%;
+	padding: 5%;
+	text-align: center;
+}
+#footer_hov:hover{
+	color: #fbb076 ;
+	filter: drop-shadow(3px 3px 3px);
+	transition: 0.25s ease;
+}
+#instagram:hover{
+	color: #e1306c;
+	filter: drop-shadow(3px 3px 3px);
+	transition: 0.25s ease;
+}
+#twitter:hover{
+	color: #33b0f2;
+	filter: drop-shadow(3px 3px 3px);
+	transition: 0.25s ease;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+p{
+	text-align: justify;
+	font-family: 'HappyTimesattheIKOBRegular';
+	font-weight: normal;
+	font-style: normal;
+ }
+/* For the internal link */
+#internal_link{
+	color: white;
+	font-size: 3vw;
+}
+/* Use when the cursor crosses the internal link*/
+#internal_link:hover{
+	filter: drop-shadow(5px 5px 12px);
+	transition: 0.5s ease;
+}
+/*Style for the tables*/
+ th, td{
+    text-align: left;
+     padding: 8px;
+    border: 2px solid black;
+	white-space: nowrap;
+}
